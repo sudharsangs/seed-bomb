@@ -7,7 +7,7 @@ body {
     text-align: center;
     margin: 0 ;
     min-height:100vh;
-    min-width: 100%;
+    //min-width: 100%;
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,6 +20,20 @@ body {
         font-size: 3vh;
     }
 }
+
+@media only screen and (min-width: 1100px) {
+    body {
+        padding-left: 20%;
+        padding-right: 20%;
+        
+    }
+    tr,td,th {
+        font-size: 3.5vh;
+    }
+    table {
+        font-size: 5vh;
+    }
+} 
 
 
 
@@ -117,8 +131,9 @@ table {
     margin-left: auto;
     margin-right: auto;
     table-layout: fixed;
-    //max-width: 50%;
+
     white-space: nowrap;
+    
     
 }
 th,td 
@@ -157,6 +172,9 @@ tr {
     background-color: 	#202D11 ;
     padding: 5%;
     color: blanchedalmond;
+    h2 {
+        line-height: 10pt;
+    }
 }
 
 footer {
